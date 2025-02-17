@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Autorzy(I semestr niestacjonarne - informatyka): ");
+        Console.WriteLine("Rafał Kaczyński 119787 gr1");
+        Console.WriteLine("Kacper Pięta 122923 gr1");
+        Console.WriteLine("Nataniel Marciniak 122845 gr1");
+        Console.WriteLine("Patryk Michalak 125078 gr1");
+
         Console.WriteLine("Podaj początek:");
         int start = int.Parse(Console.ReadLine());
 
